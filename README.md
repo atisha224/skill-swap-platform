@@ -7,7 +7,7 @@ A full-stack web app that enables users to exchange skills through swap requests
 ## 👥 Team Members
 
 - **Atisha Jain** – Fullstack Developer, Frontend Integrator  
-- **Ashlesha Verma** – Backend API Lead, ML Engineer  
+- **Ashlesha Verma (Team Leader)** – Backend API Lead, ML Engineer  
 - **Avani Sharma** – UI/UX + Tailwind Specialist  
 - **Devi Modi** – Database Designer + QA Tester
 
