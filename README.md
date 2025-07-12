@@ -2,7 +2,7 @@
 
 ## Team - SyntaxSquad
 
-Ashlesha Verma (Leader)
-Atisha Jain
-Avani Sharma
-Devi Modi
+### Ashlesha Verma (Leader)
+### Atisha Jain
+### Avani Sharma
+### Devi Modi
