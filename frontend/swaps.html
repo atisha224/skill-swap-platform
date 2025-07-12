@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skill Swap – My Swaps</title>
+  <script src="main.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+  <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6">
+    <h1 class="text-2xl font-bold text-blue-600 mb-4">My Swap Requests</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Sent Requests -->
+      <div>
+        <h2 class="text-xl font-semibold mb-2 text-green-600">Sent Requests</h2>
+        <ul id="sentRequests" class="space-y-4"></ul>
+      </div>
+
+      <!-- Received Requests -->
+      <div>
+        <h2 class="text-xl font-semibold mb-2 text-orange-600">Received Requests</h2>
+        <ul id="receivedRequests" class="space-y-4"></ul>
+      </div>
+    </div>
+
+    <p class="mt-6 text-sm text-right">
+      <a href="profile.html" class="text-blue-600 hover:underline">← Back to Profile</a>
+    </p>
+  </div>
+</body>
+</html>

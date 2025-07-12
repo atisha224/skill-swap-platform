@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skill Swap – Home</title>
+  <script src="main.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+  <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-md p-6">
+    <h1 class="text-2xl font-bold text-blue-600 mb-4">Search Skill Swap Users</h1>
+
+    <form id="searchForm" class="flex mb-6 space-x-2">
+      <input type="text" id="skillSearch" placeholder="e.g., Photoshop"
+        class="flex-grow p-2 border rounded" required />
+      <button type="submit"
+        class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Search</button>
+    </form>
+
+    <ul id="searchResults" class="space-y-4"></ul>
+
+    <p class="mt-6 text-sm text-right">
+      <a href="profile.html" class="text-blue-600 hover:underline">→ Go to My Profile</a>
+    </p>
+  </div>
+</body>
+</html>
