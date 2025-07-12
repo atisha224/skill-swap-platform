@@ -279,3 +279,10 @@ document.addEventListener("DOMContentLoaded", () => {
   function downloadCSV() {
     window.open(`${BASE_URL}/api/admin/export-feedback`, "_blank");
   }
+
+
+function toggleTheme() {
+  const htmlEl = document.documentElement;
+  const isDark = htmlEl.classList.toggle("dark");
+  localStorage.theme = isDark ? "dark" : "light";
+}
